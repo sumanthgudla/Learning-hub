@@ -12,5 +12,5 @@ students = [
 ]
 
 
-grades={student["name"]: "A" if student["score"]>90 else "B" if student["score"]>85 else "C"  for student in students }
+grades={student["name"]: "A" if student["score"]>90 else "B" if student["score"]>85 else "C"  for student in students if student['score']>50 }
 print(grades)

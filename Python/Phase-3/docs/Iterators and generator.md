@@ -167,7 +167,7 @@ A: Beyond flattening iteration, `yield from` properly forwards `.send(value)` an
 A: Use a `while True:` loop with `yield` inside (e.g., an infinite counter or a polling generator). To consume it safely, never call `list(gen)` on it directly — pair it with something that limits consumption, like `itertools.islice(gen, n)`, a `break` condition inside a `for` loop, or `next()` called a bounded number of times. The key insight: the generator itself doesn't "know" to stop — bounding is the consumer's responsibility.
 
 **Q5: Why is `StopIteration` special, and what changed in Python 3.7 (PEP 479) regarding it?**
-A: `StopIteration` is the normal termination signal for iteration — `for` loops catch it silently. Before PEP 479, if a `StopIteration` was accidentally raised *inside* a generator body (e.g., from a bug, like calling `next()` on an exhausted sub-iterator without catching it), it would silently propagate out and the enclosing `for` loop would interpret it as "this generator is done," masking a real bug. PEP 479 changed this: a `StopIteration` raised inside a generator's body is now converted into a `RuntimeError`, so such bugs surface loudly instead of silently truncating iteration.
+A: `StopIteration` is the normal termination signal for iteration — `for` loops catch it silently. Before PEP 479, if a `StopIteration` was accidentally raised *inside* a generator body (e.g., from a bug, like calling `next()` on an exhausted sub-iterator without catching it),  would silently propagate out and the enclosing `for` loop would interpret it as "this generator is done," masking a real bug. PEP 479 changed this: a `StopIteration` raised inside a generator's body is now converted into a `RuntimeError`, so such bugs surface loudly instead of silently truncating iteration.
 
 ## 6. Practice problems
 
@@ -182,7 +182,7 @@ Build a **lazy ETL pipeline** using chained generators (no lists in between stag
 2. `filter_valid(records)` — a generator that yields only records where `status == "valid"`.
 3. `running_total(records)` — a generator that yields each record alongside a *running cumulative total* of `amount` so far, using `yield` (not a pre-computed list) — i.e., it should maintain state across `yield` calls.
 4. Chain all three together with `yield from`/composition and consume only the first 3 results using `itertools.islice`, without ever materializing the full pipeline into a list.
-
+it
 Print each yielded `(record, running_total)` tuple.
 - Suggested filename: `generators_prac02_lazy_etl_pipeline.py`
 - Example input: `["id:1,amount:50.5,status:valid", "id:2,amount:30,status:invalid", "id:3,amount:20,status:valid"]`

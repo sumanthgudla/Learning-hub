@@ -26,3 +26,19 @@ __str__ → for end users (display, UI)
 Goal: readable and human-friendly
 Called by print(), str(), f-strings
 
+
+
+**Q1: What is `super()` and why use it instead of calling the parent class directly?**
+> `super()` returns a proxy object that delegates method calls to the parent class, following MRO. It avoids hardcoding parent class names — if the parent class is renamed or the inheritance hierarchy changes, code using `super()` still works correctly.
+
+**Q2: What is Method Resolution Order (MRO)?**
+> MRO is the order Python searches through a class hierarchy to find a method or attribute. For single inheritance it's straightforward — child then parent. For multiple inheritance, Python uses **C3 Linearization** which guarantees child-before-parent and preserves the left-to-right order of inheritance declaration.
+
+**Q3: What's the Diamond Problem and how does Python solve it?**
+> When a class inherits from two classes that both inherit from a common ancestor, there's ambiguity about which method to use. Python solves this with MRO/C3 linearization — `D(B, C)` where both B and C inherit A, the MRO is `D → B → C → A → object`, so B's version wins.
+
+**Q4: `isinstance()` vs `type() ==` for checking class — which is correct?**
+> `isinstance()` is correct because it respects inheritance — a `Dog` object is also an `Animal`. `type(x) == Animal` returns `False` for a `Dog` instance even though Dog IS an Animal. Always use `isinstance()`.
+
+**Q5: When should you NOT use inheritance?**
+> When the relationship isn't truly "IS-A". If you're inheriting just to reuse some methods but the classes aren't conceptually related, prefer **composition** — have one class contain an instance of another ("HAS-A" relationship). Overusing inheritance leads to fragile, tightly-coupled hierarchies.

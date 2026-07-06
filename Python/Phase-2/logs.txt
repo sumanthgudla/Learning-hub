@@ -1,0 +1,8 @@
+# log format:
+# 2024-01-15 10:23:45 INFO Server started
+# 2024-01-15 10:24:01 ERROR Database connection failed
+# 2024-01-15 10:24:05 WARNING High memory usage
+# expected errors.txt:
+# Database connection failed
+
+# ...{"error_lines": 2}

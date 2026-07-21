@@ -1,0 +1,22 @@
+# Environment files
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# Editor and OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/

@@ -1,0 +1,47 @@
+from langchain_openai import AzureChatOpenAI
+from langchain.prompts import ChatPromptTemplate
+import os
+from dotenv import load_dotenv
+from langchain_core.runnables import RunnableLambda
+from langchain_core.output_parsers import PydanticOutputParser
+from pydantic import BaseModel
+
+
+class LearningNotes(BaseModel):
+    topic:str
+    summary:str
+    keypoints:list[str]
+
+
+load_dotenv('.env')
+
+api_key=os.getenv('azure_api_key')
+api_endpoint=os.getenv('azure_endpoint')
+
+
+llm=AzureChatOpenAI(
+    azure_deployment='gpt-4.1',
+    api_version='2024-10-21',
+    api_key=api_key,
+    azure_endpoint=api_endpoint
+)
+
+detailed_summary_pompt=ChatPromptTemplate(
+    [
+        ('system','You are a content writer, your task is to write a summary on the given topic include only the facts '),
+        ('user','Write detailed summary for the topic :{topic}')
+    ]
+)
+
+
+structired_reponse_pronpt=ChatPromptTemplate(
+    [
+        ('system','you are a expert content summarizer. your task is to take the provided input and classify according to the provided output type'),
+        ('user','your task is to structure the following input {message} into following {output}')
+    ]
+)
+
+pydnacticoutput=PydanticOutputParser(pydantic_object=LearningNotes)
+chain=detailed_summary_pompt | llm | RunnableLambda(lambda msg:{'message':msg.content,'output':pydnacticoutput.get_format_instructions()}) | structired_reponse_pronpt | llm | pydnacticoutput
+result=chain.invoke({'topic':'Explain Python generators'})
+print(result)

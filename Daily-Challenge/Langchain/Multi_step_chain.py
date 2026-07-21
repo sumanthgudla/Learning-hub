@@ -4,6 +4,7 @@ from pydantic import BaseModel
 from langchain_core.output_parsers import PydanticOutputParser
 import os
 from dotenv import load_dotenv,find_dotenv
+from langchain_core.runnables import RunnableLambda
 
 load_dotenv('.env')
 
@@ -44,5 +45,5 @@ json_summary_prompt=ChatPromptTemplate(
 
 
 
-chain= json_summary_prompt | llm | output
-print(chain.invoke({'request':'This standard LCEL sequence formats your prompt, sends it to the language model, and parses the text into a structured JSON output.','format_instructions':output.get_format_instructions()}))
+chain= conscise_prompt | llm | RunnableLambda(lambda msg:{'request':msg.content,'format_instructions':output.get_format_instructions()}) | json_summary_prompt | llm | output
+print(chain.invoke({'topic':'Write about AI'}))

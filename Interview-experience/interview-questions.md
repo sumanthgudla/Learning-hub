@@ -11,3 +11,13 @@
 11. what is difference between thread and process
 12. what is diffference between multi threading and multi processing
 13. give high level on langchain and langraph
+14.can we use decorator on top of lambda function
+15. what is cosine similarity search
+16. split sentence into words(coding)
+17.write a basic generator code
+18. what is decorator and generator
+19. why use cosine and not others
+20. you are given a huge pdf with tables how do you do it for rag
+21. write a simple generator and decorator
+
+

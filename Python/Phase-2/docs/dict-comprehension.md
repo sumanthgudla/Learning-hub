@@ -1,5 +1,11 @@
 What is it?
 Dict comprehensions build a dictionary in a single line — just like list comprehensions but with key-value pairs instead of single values. They're faster than manually calling dict[key] = value in a loop because Python pre-allocates the dictionary internally. Senior devs use these constantly for transforming, inverting, and filtering dictionaries cleanly.
+
+"List and dictionary comprehensions are generally faster because intenally it executes in c. This avoids repeated attribute lookups and method calls like list.append(), reducing interpreter overhead. They also perform the iteration and insertion in a more optimized way than an equivalent explicit Python loop."
+
+Use comprehensions when you are creating a new collection from an existing iterable in one clear expression.
+Use a normal loop when the logic becomes complex or you have side effects.
+
 Syntax Pattern
 {key_expr : value_expr  for  item  in  iterable  if  condition}
 #    ↑            ↑                                      ↑

@@ -5,8 +5,10 @@ from dotenv import load_dotenv
 from langchain_core.runnables import RunnableLambda
 from langchain_core.output_parsers import PydanticOutputParser
 from pydantic import BaseModel
+from langchain.globals import set_debug
 
 
+set_debug(True)
 class LearningNotes(BaseModel):
     topic:str
     summary:str
@@ -21,9 +23,9 @@ api_endpoint=os.getenv('azure_endpoint')
 
 llm=AzureChatOpenAI(
     azure_deployment='gpt-4.1',
-    api_version='2024-10-21',
-    api_key=api_key,
-    azure_endpoint=api_endpoint
+    azure_endpoint='https://learning468.services.ai.azure.com/',
+    api_key=os.getenv("azure_api_key"),
+    api_version='2025-04-01-preview'
 )
 
 detailed_summary_pompt=ChatPromptTemplate(

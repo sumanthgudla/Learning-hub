@@ -19,5 +19,5 @@
 19. why use cosine and not others
 20. you are given a huge pdf with tables how do you do it for rag
 21. write a simple generator and decorator
-
+w
 

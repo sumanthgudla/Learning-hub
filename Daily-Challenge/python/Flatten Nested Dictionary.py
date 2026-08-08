@@ -4,8 +4,6 @@ def flatten_nested_dict(dictionary,res={},carry_forward_key=''):
             carry_forward_key=carry_forward_key+k+'.'
             flatten_nested_dict(v,res,carry_forward_key)
             carry_forward_key=carry_forward_key.rstrip(k)
-
-
         else:
             carry_forward_key=carry_forward_key+k
             res[carry_forward_key]=v

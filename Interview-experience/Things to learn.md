@@ -5,6 +5,8 @@ learn advanced rag
 agents -learn therory and coding
 next complete other concepts in crack interviews
 coding.. made good progress here as well
+learn azure road map
+learn sql complete leetcode 50
 
 
 

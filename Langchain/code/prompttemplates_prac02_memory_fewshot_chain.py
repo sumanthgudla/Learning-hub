@@ -1,6 +1,6 @@
 from langchain_core.prompts import ChatPromptTemplate,FewShotChatMessagePromptTemplate
 from langchain_openai import AzureChatOpenAI
-
+from langchain.chains
 
 
 example_few_shot=[
@@ -18,8 +18,8 @@ example_few_shot=[
 
 few_shot_messages=ChatPromptTemplate.from_messages(
     [
-        ("user","article"),
-        ("ai","summary")
+        ("user","{article}"),
+        ("ai","{summary}")
     ]
 )
 
@@ -34,18 +34,31 @@ chat_messages=ChatPromptTemplate.from_messages(
     [
         ("system","You are a summarizer"),
         Prompt_template,
-        ("user","sumamrize this text {input}")
+        ("user","summarize this text {input}")
     ]
 )
 
+import os
+from langchain_core.runnables import RunnableSequence
+import json
+
 llm=AzureChatOpenAI(
     azure_deployment="gpt-4.1",
+<<<<<<< HEAD
     api_key=os.getenv("azure_api_key"),
+=======
+    api_key=os.environ.get("AZURE_OPENAI_API_KEY"),
+>>>>>>> 61b3936 (Changes)
     api_version="2025-04-01-preview",
     azure_endpoint="https://learning468.services.ai.azure.com/"
 )
 
-chain=chat_messages | llm
+chain: RunnableSequence = chat_messages | llm
+
+# Serialize runnable to dict and save to JSON (RunnableSequence has no .save())
+chain_dict = chain.dict()
+with open("prompt-chain.json","w",encoding="utf-8") as f:
+    json.dump(chain_dict,f,ensure_ascii=False,indent=2)
 
 print(chain.invoke({"input":"The Federal Reserve raised benchmark interest rates by a quarter percentage point on Wednesday, fighting persistent inflation despite recent turmoil in the banking sector. Chairman Jerome Powell stated that borrowing costs might peak higher than previously expected if price pressures don't ease. The move brings the federal funds rate to a range of 4.75% to 5%. Stocks rallied briefly during the press conference but ended the day sharply lower."}))
 

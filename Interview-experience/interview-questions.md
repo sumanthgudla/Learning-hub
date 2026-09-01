@@ -3,6 +3,7 @@
 3.what is context window
 4.how do you do online evaluation
 5.Write a basic agent code
+<<<<<<< HEAD
 6. what is differenece between tuple and set
 7.what is decorator
 8.what is generator
@@ -21,3 +22,5 @@
 21. write a simple generator and decorator
 w
 
+=======
+>>>>>>> 61b3936 (Changes)

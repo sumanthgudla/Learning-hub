@@ -5,7 +5,8 @@ k=3
     nums.pop()
 print(nums)
 '''
+nums=nums[k-1::-1]+nums[len(nums):k-1:-1]
 nums=nums[::-1]
-nums[:k]=nums[:k][::-1]
-nums[k:]=nums[k:][::-1]
 print(nums)
+
+

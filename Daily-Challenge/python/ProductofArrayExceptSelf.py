@@ -14,3 +14,10 @@ res=[]
 for prefix,suffix in zip(prefix_sum,suffix_sum):
     res.append(prefix*suffix)
 print(res)
+
+
+
+1,1,2,6,24,120,720
+
+
+720 ,360,120,30,6,1

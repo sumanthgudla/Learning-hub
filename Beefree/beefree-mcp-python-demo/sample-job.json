@@ -1,0 +1,9 @@
+{
+  "template_path": "../sample-beefree.json",
+  "instruction": "Generate a credit card offer email. Add a hero row, two columns, benefits text, a CTA button, and use blue and gold colors.",
+  "output_path": "output/credit-card-template.json",
+  "max_steps": 8,
+  "merge_tags": {
+    "first_name": "Sumanth"
+  }
+}

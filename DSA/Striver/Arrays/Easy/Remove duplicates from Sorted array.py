@@ -16,3 +16,14 @@ for num in nums:
         set_nums.add(num)
         res.append(num)
 print(res)
+
+# this approach has an extra space
+
+res=[]
+nums=[1,1,2,2,2,3,3]
+for idx,num in enumerate(nums):
+    if idx>0 and nums[idx-1]==nums[idx]:
+        continue
+    else:
+        res.append(nums[idx])
+print(res)

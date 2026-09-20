@@ -1,0 +1,11 @@
+Input="madaam"
+low=0
+high=len(Input)-1
+IsPalindrome=True
+while(low<high):
+    if(Input[low]!=Input[high]):
+        IsPalindrome=False
+        break
+    low+=1
+    high-=1
+print(IsPalindrome)

@@ -34,6 +34,9 @@
 
 * A tuple is hashable only when all of its elements are hashable.
 
-**Likely follow-up:** *“Why would you choose a tuple over a list in a real project?”*
+
+Less memory: Tuples generally require less memory than lists.
+Faster creation/access: Since their size and contents are fixed, some operations can be optimized.
+Better for read-only data: Python can safely reuse/optimize tuples in some cases. why and how explain in detail so i can understand
 
 

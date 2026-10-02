@@ -3,7 +3,6 @@
 3.what is context window
 4.how do you do online evaluation
 5.Write a basic agent code
-<<<<<<< HEAD
 6. what is differenece between tuple and set
 7.what is decorator
 8.what is generator
@@ -20,7 +19,10 @@
 19. why use cosine and not others
 20. you are given a huge pdf with tables how do you do it for rag
 21. write a simple generator and decorator
-w
+22.why did you choose langraph and what else did you compared
+23.you mentioned abiyt deep evals can you explain what did you tested
+24.what is agent and why chatgot is not a aganet
+25.what are the different evaluation methods in RGA
+26. what is conversation memory difference between short term and long term memory
 
-=======
->>>>>>> 61b3936 (Changes)
+

@@ -5,7 +5,7 @@ Here's **Phase 2 — Topic 6: Scope & Closures** in notes-friendly format:
 # Phase 2 — Topic 6: Scope & Closures
 
 ## What is it?
-Scope defines **where a variable is accessible**. Closure is when an inner function **remembers variables from its enclosing function** even after that outer function has finished running. These are heavily tested at senior level because they underpin decorators, callbacks, and factory functions.
+Scope defines **where a variable is accessible**. Closure is when an inner function **remembers variables from its enclosing function** even after that outerx₹ function has finished running. These are heavily tested at senior level because they underpin decorators, callbacks, and factory functions.
 
 ---
 

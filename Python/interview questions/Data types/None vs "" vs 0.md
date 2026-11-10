@@ -12,8 +12,8 @@ print(name)
 
 Output:
 
-```text
-None
+Non```text
+e
 ```
 
 Example:

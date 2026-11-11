@@ -1,0 +1,84 @@
+number,created,merged,state,base,title
+24979,2025-11-07,2025-11-11,MERGED,master,BUG-960656 DXapi-Update Action scripts are failing
+24992,2025-11-10,2025-11-11,MERGED,master,US-710364-1 Refine Treatment case from Update Action Change Request
+24997,2025-11-10,2025-11-11,MERGED,master,BUG-953339 Download Treatment is not downloading PDF when no name is s
+25014,2025-11-10,2025-11-12,MERGED,master,BUG-930399 Release testing : SMS treatment duplicate info UX bug
+25051,2025-11-12,2025-11-13,MERGED,master,BUG-961363 Remove redundant Pega Unit tests for blank activities with
+25080,2025-11-17,,CLOSED,master,Task/task 1800172
+25092,2025-11-18,,CLOSED,master,BUG-953346 UX issues in Email Treatment Case
+25132,2025-11-21,2025-11-21,MERGED,master,BUG-953346 UX issues in Email Treatment Case
+25133,2025-11-21,,CLOSED,master,Task 1800172 DX apis for brand voice
+25198,2025-12-01,2025-12-02,MERGED,master,BUG-964045 Beefree editor not inline on always on actions
+25246,2025-12-03,,CLOSED,master,BUG-964606 Screen Flicker Issue When Adding Subject and Preheader Fiel
+25319,2025-12-09,,CLOSED,master,BUG-957553 Mismatch between subject line and its preview in beefree ed
+25334,2025-12-10,2026-01-02,MERGED,master,BUG-957553 Mismatch between subject line and its preview in beefree ed
+25460,2025-12-22,,CLOSED,master,BUG-956218 BeeFree Editor not enabled by default in CDHSample
+25464,2025-12-22,2025-12-23,MERGED,release/24.2,HFIX-C4616 Incorrect cpv explanation of eligibility engagement policy
+25493,2025-12-24,2025-12-24,MERGED,master,BUG-968253 HFIX:Incorrect cpv explanation of eligibility engagement po
+25495,2025-12-24,2025-12-29,MERGED,release/25.1,BUG-968254 HFIX:Incorrect cpv explanation of eligibility engagement p
+25500,2025-12-24,2025-12-24,MERGED,master,BUG-966433 Internal email treatments not getting removed if details ed
+25514,2025-12-29,2026-01-19,MERGED,master,"BUG-965477 Inconsistent font on ""details"" for Other treatments on alwa"
+25626,2026-01-08,2026-01-08,MERGED,master,BUG-964606 Remove references of using internal Generative AI Cpv summa
+25627,2026-01-08,2026-01-09,MERGED,master,BUG-964606 Screen Flicker Issue When Adding Subject and Preheader Fiel
+25789,2026-01-21,2026-01-21,MERGED,release/25.1,BUG-972153 Invalid Contact Policies Are Visible and Associable via Sea
+25791,2026-01-21,,CLOSED,master,BUG-972362 Invalid Contact Policies Are Visible and Associable via Sea
+25794,2026-01-21,2026-01-21,MERGED,master,BUG-972362 Invalid Contact Policies Are Visible and Associable via Sea
+25836,2026-01-23,2026-01-23,MERGED,release/25.1,BUG-972894 Default account change should ask for account details
+25929,2026-02-02,2026-02-02,MERGED,master,BUG-966568 No validation for internal emails
+25938,2026-02-02,2026-02-02,MERGED,master,BUG-937728 Incorrect Treatment Shown in Preview When Internal & Extern
+26076,2026-02-11,2026-02-11,MERGED,release/24.2,HFIX-D324 Remove same name action in lower version with create action
+26082,2026-02-11,2026-02-11,MERGED,master,"BUG-934508 Email name is accepting numbers, which causes the ID empty"
+26083,2026-02-11,2026-02-11,MERGED,master,BUG-963140 Issue with withdraw of an update CR
+26151,2026-02-18,2026-02-19,MERGED,master,BUG-939350 Make action available process failed
+26519,2026-03-23,2026-03-23,MERGED,master,BUG-946647 RC: Suppression period and Target context are missing on CP
+26565,2026-03-26,,CLOSED,master,BUG-977441 No error message is shown when models are not present in t
+26566,2026-03-26,2026-03-27,MERGED,master,BUG-977441 No error message is shown when models are not present in th
+26697,2026-04-07,,CLOSED,master,Beefree auth changes for staging
+26769,2026-04-10,,CLOSED,master,BUG-986952 Unwanted exceptions in logs from ValidateTreatments activit
+26839,2026-04-16,,CLOSED,master,BUG-986952 Unwanted exceptions in logs from ValidateTreatments activit
+26849,2026-04-17,2026-04-20,MERGED,master,BUG-986952 Unwanted exceptions in logs from ValidateTreatments activit
+26906,2026-04-22,,CLOSED,release/25.1,BUG-976286 HFIX:CPV showing incorrect results
+26945,2026-04-24,2026-04-27,MERGED,release/25.1,BUG-989102 HFIX:Inbound call resulting in error entry in logs with Peg
+26947,2026-04-24,,CLOSED,master,BUG-985560 Update CaptureInteractionHistory strategy empty check
+27022,2026-04-29,,CLOSED,master,"BUG-970093 Bee free treatment sets issue/group to ""ALL"" instead of ""Al"
+27023,2026-04-29,2026-04-30,MERGED,release/25.1,"BUG-991772 Bee free treatment sets issue/group to ""ALL"" instead of ""Al"
+27063,2026-05-04,2026-05-04,MERGED,release/25.1,"BUG-991772 Bee free treatment sets issue/group to ""ALL"" instead of ""Al"
+27075,2026-05-05,,CLOSED,master,"BUG-970093 Bee free treatment sets issue/group to ""ALL"" instead of ""Al"
+27078,2026-05-05,,CLOSED,master,"BUG-970093 Bee free treatment sets issue/group to ""ALL"" instead of ""Al"
+27127,2026-05-08,2026-05-11,MERGED,master,BUG-985560 Update CaptureInteractionHistory strategy empty check
+27236,2026-05-15,2026-05-18,MERGED,release/25.1,BUG-995281 Interactions not loading in CPV for Persona and External ID
+27306,2026-05-21,,CLOSED,master,US-745323 - Manage email treatment details
+27428,2026-06-03,,CLOSED,master,Normalize BeeFree Issue/Group defaults in `mzGetExpectedTreatmentDetails` for PegaUnit parity
+27482,2026-06-08,2026-06-08,MERGED,master,BUG-997838 RV Generation Fails for Update CR with Bee free Email Treat
+27528,2026-06-11,2026-06-11,MERGED,master,BUG-1001192 Content landing Page Template Issues
+27542,2026-06-15,2026-06-23,MERGED,release/26.1,BUG-1001587 Playwright setup step fails opening access groups in Infinity St
+27582,2026-06-18,,CLOSED,master,HFIX-D1493 Bee free treatment sets issue/group to ALL instead of All
+27583,2026-06-18,2026-06-22,MERGED,release-hotfix/25.1.1,HFIX-D1493 Bee free treatment sets issue/group to ALL instead of All
+27736,2026-07-02,2026-07-02,MERGED,release/26.1,BUG-931868 Align with Infinity studio and remove App Studio form the CDH AG
+27776,2026-07-08,2026-07-08,MERGED,master,BUG-1007755 External ID and Personas not working in IH and DH in maste
+27777,2026-07-08,2026-07-08,MERGED,release/26.1,BUG-1007920 External ID and Personas not working in IH and DH in  mast
+27866,2026-07-16,,CLOSED,master,HFIX-D2352 Enhanced Email Authoring tool do not show all fields & work CTA
+27867,2026-07-16,2026-07-17,MERGED,release-hotfix/25.1.3,HFIX-D2352 Enhanced Email Authoring tool do not show all fields & wor…
+27878,2026-07-17,2026-07-20,MERGED,release-hotfix/25.1.3,HFIX-D2352 Enhanced Email Authoring tool do not show all fields & words
+27957,2026-07-24,,CLOSED,master,BUG-1008949 align with Infinity Studio and remove App Studio from t
+27958,2026-07-24,2026-07-30,MERGED,master,BUG-1008949 align with Infinity Studio and remove App Studio
+27964,2026-07-24,,CLOSED,master,Hfix d2352 1
+27965,2026-07-24,,CLOSED,release-hotfix/25.1.3,HFIX-D2352 Enhanced Email Authoring tool do not show all fields & words
+28059,2026-08-03,,CLOSED,master,HFIX-D2352-2 Enhanced Email Authoring tool do not show all fields & work CTA
+28060,2026-08-03,2026-08-03,MERGED,release-hotfix/25.1.3,HFIX-D2352 Enhanced Email Authoring tool do not show all fields & work CTA
+28127,2026-08-06,2026-08-06,MERGED,release/26.1,BUG-1003589 HFIX:CTA does not work in Enhanced Email Authoring tool
+28171,2026-08-09,2026-08-09,MERGED,release/26.1,BUG-1013411 The App Overviewis displaying incorrect Performance & impr
+28194,2026-08-11,,CLOSED,master,BUG-1013412 The App Overviewis displaying incorrect Performance & impr
+28434,2026-09-01,,OPEN,master,ENHANCEMENT-2114 Plain Text Email Generation / Preview
+28435,2026-09-01,2026-09-01,MERGED,master,BUG-1020370 The SDE AI Assistant is currently not working because the
+28475,2026-09-03,,OPEN,feature/enhancement-2114,Plain text email preview: Pega rules
+28476,2026-09-03,,OPEN,feature/enhancement-2114,Plain text email preview: automation
+28477,2026-09-03,,OPEN,feature/enhancement-2114,Plain text email preview: specification
+28482,2026-09-03,2026-09-09,MERGED,release-hotfix/25.1.2,HFIX-D3455 Enable support for plain-text and multipart email treatments.
+28678,2026-09-17,,CLOSED,master,Enh 2114 Plain text codeset changes
+28679,2026-09-17,,OPEN,release/25.1,ENHANCEMENT-1995 Support Dark Mode Preview for Emails
+28763,2026-09-25,,OPEN,release/26.1,ENHANCEMENT-15218 Nightly Trigger for Orchestrator Agent
+28771,2026-09-25,,OPEN,release/26.1,Add synced fragment support to Beefree authoring
+28775,2026-09-25,2026-09-25,MERGED,release/26.1,T-47965 Update test tags Raptors dai-jenkins 26.1
+28777,2026-09-25,2026-09-25,MERGED,master,T-47965 Update test tags Raptors dai-jenkins
+28778,2026-09-25,2026-09-25,MERGED,release/25.1,T-47965 Update test tags Raptors dai-jenkins 25.1

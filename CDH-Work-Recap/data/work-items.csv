@@ -1,0 +1,299 @@
+date,year,id,type,category,title,commit
+2021-12-21,2021,BUG-694325,BUG,"App Overview, Localization & Platform","Create missing operators Ids, access groups and application",9127fefceb1
+2021-12-27,2021,BUG-695779,BUG,Customer Profile Viewer (CPV) & Personas,Retrieve all associated interactions in overview tab,7b63bfad38b
+2022-01-21,2022,BUG-688915,BUG,Customer Profile Viewer (CPV) & Personas,CPV NBA Semicolons were displayed when blank contexts added,39c0e0a0756
+2022-02-16,2022,BUG-704233,BUG,Customer Profile Viewer (CPV) & Personas,In CDHSample Context Dictionary save is failing,9e2ae5488ba
+2022-02-24,2022,BUG-700683,BUG,Customer Profile Viewer (CPV) & Personas,Business Levers in CPV Popup Only 1 Decimal,9d81717163b
+2022-03-04,2022,US-460665-1,US,Ops Manager / Change Requests / Revisions,Action Landing Page Supports Withdrawn Actions,eb052e30171
+2022-03-24,2022,BUG-709522,BUG,Ops Manager / Change Requests / Revisions,checkbox to Display onlywithdrawnactions in Actions LP,0e94df93ff5
+2022-03-24,2022,BUG-710159,BUG,Treatments & Channels,No filter option available for email and SMS treatments,92e26cfae8b
+2022-04-07,2022,BUG-691087,BUG,Customer Profile Viewer (CPV) & Personas,Name filter is not working under NBA>> Make Decision,f3781504226
+2022-04-12,2022,,Untracked,Treatments & Channels,Added changes related to US-470530 refactor email and sms UI.,05000e4cc11
+2022-04-18,2022,,Untracked,Test Automation (Selenium / Playwright / PegaUnit),Made selenium changes for raptors test case failures,8b71e085b98
+2022-04-20,2022,BUG-696123,BUG,Customer Profile Viewer (CPV) & Personas,Customer Profile Viewer: Priority column out of order,204ae6656f7
+2022-04-21,2022,US-471810,US,Treatments & Channels,Reverting to a Previous Version of Treatment,1e0fa9de136
+2022-05-02,2022,BUG-711921,BUG,Treatments & Channels,Allignment issue in internal treatment,af1641b476b
+2022-05-18,2022,BUG-722373,BUG,Customer Profile Viewer (CPV) & Personas,CPV refresh issue for customer journey,6d7c379c3d4
+2022-05-19,2022,BUG-722944,BUG,Ops Manager / Change Requests / Revisions,DDR rules not removed after doing return to build in OpsMgr,f3e2ccaffa7
+2022-05-20,2022,US-477041,US,Customer Profile Viewer (CPV) & Personas,CPV Supports Customer Journey Decisions,1c9f0e3bf6d
+2022-05-25,2022,BUG-724050,BUG,Customer Profile Viewer (CPV) & Personas,Propensity column missing from Customer Profile Viewer,bcfb18b605e
+2022-05-26,2022,BUG-720445,BUG,"App Overview, Localization & Platform",Weird UI display is shown on save of Application Settings,f837b70eff9
+2022-05-31,2022,BUG-724919,BUG,Treatments & Channels,Language Advanced Control Doesn't Work on Treatment,cbf29be9c35
+2022-06-01,2022,BUG-725195,BUG,Customer Profile Viewer (CPV) & Personas,Web & Mobile Channel Context Doesn't Clear in CPV,5354df31bf5
+2022-06-03,2022,BUG-725319,BUG,Email Authoring (BeeFree) & Templates,The Content & Details should be flipped for External Email,5afa343a85c
+2022-06-09,2022,BUG-727380,BUG,Customer Profile Viewer (CPV) & Personas,Final propensity hidden after selecting 'Explain propensity,4b27de1acb9
+2022-06-15,2022,BUG-728565,BUG,Treatments & Channels,No error shown in Treatments if end date is before start da,594e848cf44
+2022-06-20,2022,BUG-729438,BUG,Customer Profile Viewer (CPV) & Personas,Explain prioritization spelling mistake in NBA tab views,6cbd3a1e7dc
+2022-06-30,2022,BUG-728349,BUG,Treatments & Channels,External SMS text editor should be expression builder,b7348738f56
+2022-07-01,2022,,Untracked,Test Automation (Selenium / Playwright / PegaUnit),Changed the xpath for search which is used in properties discription,9fa6f5f986f
+2022-07-05,2022,US-476973,US,Treatments & Channels,Adopt Support for Dynamic SMS Messages,eef7e277cdb
+2022-07-15,2022,BUG-732582,BUG,Test Automation (Selenium / Playwright / PegaUnit),[Selenium]Treatment eligibility with proposition filters failing,cdd1d79d0e6
+2022-07-18,2022,,Untracked,Test Automation (Selenium / Playwright / PegaUnit),increased waittime for contextdictionary save and export in CPV,a3a5d85d4b4
+2022-07-19,2022,BUG-733837,BUG,Treatments & Channels,Validate functions for subject in treatments,988615b8478
+2022-07-22,2022,,Untracked,Treatments & Channels,changed the directory path for agent assisted treatments,491e4481437
+2022-07-22,2022,,Untracked,Test Automation (Selenium / Playwright / PegaUnit),changed the xpath for treatments,4d3461de9d9
+2022-07-22,2022,,Untracked,Test Automation (Selenium / Playwright / PegaUnit),changed the dir path for downloads,55072b53177
+2022-08-10,2022,,Untracked,Contact Policies & Emergency Exclusions,updated contact policy,7a96b1c8285
+2022-08-10,2022,,Untracked,Test Automation (Selenium / Playwright / PegaUnit),changed pydefaultworkingset to Extenddefaultworkingset,1804f7d380b
+2022-08-10,2022,,Untracked,Test Automation (Selenium / Playwright / PegaUnit),created extenddefaultworking set xpath,2f5124113e5
+2022-08-23,2022,BUG-742190,BUG,Contact Policies & Emergency Exclusions,Contact policy DDR is getting checked out,69be690bd1a
+2022-08-25,2022,,Untracked,Test Automation (Selenium / Playwright / PegaUnit),updated the different context message,87baf8ebf63
+2022-09-12,2022,,Untracked,Test Automation (Selenium / Playwright / PegaUnit),Disable this test case in 8.8 as Write to IH DSS is true in Autotest application which is writing to wrong datasest,40649ba5201
+2022-09-12,2022,,Untracked,Contact Policies & Emergency Exclusions,Stopping the execution of Contact policy,1227d5aac39
+2022-09-12,2022,,Untracked,Test Automation (Selenium / Playwright / PegaUnit),Increasing wait time for downloading Excel file,f7436fcf012
+2022-09-20,2022,,Untracked,Treatments & Channels,deleting created treatments while bulk import,6d412e161b6
+2022-09-21,2022,,Untracked,Test Automation (Selenium / Playwright / PegaUnit),"Changed persona context message, removed container test case, increased wait time to check whether the file is downloaded or not.",c11fc5c8830
+2022-09-27,2022,,Untracked,Test Automation (Selenium / Playwright / PegaUnit),Added sleep time to solve intermittent CPV issues. And provided fix for bulk import agent assisted treatments.,a640a1f03e9
+2022-09-29,2022,,Untracked,Test Automation (Selenium / Playwright / PegaUnit),Added sleep time to solve intermittent CPV issues.,531a1630a69
+2022-10-04,2022,,Untracked,Treatments & Channels,Remove entry from propfilter when there is no treatment eligibility associated to treatment,87be5230a1f
+2022-10-14,2022,,Untracked,Test Automation (Selenium / Playwright / PegaUnit),Increase Wait time for CD Save,dd68edbb7cb
+2022-10-14,2022,,Untracked,Test Automation (Selenium / Playwright / PegaUnit),Increase Wait time for CD Save [Selenium],705610da59d
+2022-10-27,2022,BUG-695292,BUG,Treatments & Channels,On Saving Treatment for first time pzIsAutoGenerated is fal,8ba6c82f819
+2022-10-27,2022,BUG-730118,BUG,Treatments & Channels,[Tech Debt] DT to set default values in external treatment,3ed03c98a26
+2022-11-16,2022,US-501811,US,Customer Profile Viewer (CPV) & Personas,Persona Landing Page - Default Summary View,e2b7fa321eb
+2022-12-08,2022,US-507127,US,Ops Manager / Change Requests / Revisions,Migrate shipped pega CDH DDRs to new architecture,d9e58717f66
+2022-12-23,2022,US-506723,US,Ops Manager / Change Requests / Revisions,[CDH] Merge Activity for ActionInsights2,5c1cacb51a4
+2022-12-30,2022,BUG-753717,BUG,Treatments & Channels,Bulk Import of treatments not working in certain cases,4b37410aff1
+2023-01-02,2023,BUG-745305,BUG,Treatments & Channels,Discrepency during treatment creation between Rule and DDR,b4e97318b07
+2023-01-11,2023,US-515727,US,Customer Profile Viewer (CPV) & Personas,Update CPV to support Channel Context,1bcae1236ca
+2023-01-19,2023,BUG-740837,BUG,Ops Manager / Change Requests / Revisions,Audit tab showing wrong class for unprocessed<Context> RD,424c7941186
+2023-01-30,2023,BUG-776500,BUG,"App Overview, Localization & Platform",Use common DT to remove pages instead of multiple DTs,d21413b3332
+2023-01-31,2023,BUG-759977,BUG,Customer Profile Viewer (CPV) & Personas,CPV: Recent interactions treatment icons scrolling issue,284108b8dfb
+2023-02-01,2023,US-523320-1,US,Customer Profile Viewer (CPV) & Personas,[CDH] API for Retrieving System Data Sources from Context,4291646aab1
+2023-02-02,2023,BUG-738804,BUG,Treatments & Channels,Treatment landing page search text not getting cleared,ebda3907136
+2023-02-06,2023,US-522200,US,Contact Policies & Emergency Exclusions,BehavioralLimits Strategy uses GOS,496ad055a3b
+2023-02-27,2023,US-513683,US,Contact Policies & Emergency Exclusions,Contact Policies Support PlacementType,faae1c3f76d
+2023-03-16,2023,BUG-786213,BUG,Contact Policies & Emergency Exclusions,Display and User-Friendliness Issues with Contact Policy,6091765181c
+2023-03-20,2023,US-527176-1,US,Treatments & Channels,Lock & Roll of Treatments on Edit,53b947fae17
+2023-03-21,2023,US-525167,US,Customer Profile Viewer (CPV) & Personas,Ability to refresh persona details to match existing custome,9784ce7abd1
+2023-04-05,2023,US-533194,US,Treatments & Channels,Support for Treatment Lever Weighting,f408267b379
+2023-04-06,2023,BUG-793544,BUG,"App Overview, Localization & Platform",Increment the MinimumRegenerationVersion in SetNBADesignerV,a61a528e657
+2023-04-13,2023,BUG-790597,BUG,Customer Profile Viewer (CPV) & Personas,Display visual indication when persona is withdrawn,c4af2fe0b26
+2023-04-20,2023,BUG-739410,BUG,Customer Profile Viewer (CPV) & Personas,Containers not showing properly in CPV[Multiapp],836445831ff
+2023-05-03,2023,US-503308-1,US,Treatments & Channels,Treatments Landing Page Supports Custom Channels,437e2af11f8
+2023-05-05,2023,BUG-798975,BUG,Treatments & Channels,Unable to create email and sms treatments,f5acc410253
+2023-05-09,2023,BUG-799004,BUG,Customer Profile Viewer (CPV) & Personas,Extension inbound section taking space in the CPV NBA tab,560e50b5d1d
+2023-05-31,2023,BUG-803620,BUG,Email Authoring (BeeFree) & Templates,External email Treatment UI does not show type as external,e8460b97cf5
+2023-06-01,2023,BUG-803059,BUG,Customer Profile Viewer (CPV) & Personas,Views not getting created in CPV in fresh instance,64d061c149d
+2023-06-06,2023,BUG-804013,BUG,Treatments & Channels,Treatment landing page is not getting refreshed for mobile,ce12cc2c4a2
+2023-06-08,2023,BUG-804668,BUG,Treatments & Channels,Channel type is not displayed if it is NULL,40a6d38e463
+2023-06-08,2023,BUG-798506,BUG,Treatments & Channels,Refresh of all landing pages calls Treatment LP refresh rul,4b9e8641fe2
+2023-06-08,2023,BUG-804174,BUG,Customer Profile Viewer (CPV) & Personas,Channel context drop down missing on make decision for pers,d93d207c697
+2023-06-13,2023,BUG-795279,BUG,Contact Policies & Emergency Exclusions,Contact Policy Constraints incorrect Validation behaviour,b68dc94b112
+2023-06-15,2023,BUG-805913,BUG,Ops Manager / Change Requests / Revisions,Custom attribute displayed in action details by default,8621642ff2e
+2023-06-27,2023,BUG-809806,BUG,"App Overview, Localization & Platform",Upgrade is not happening for mile stone builds for treatmen,fc164c0d699
+2023-07-19,2023,BUG-814993,BUG,Treatments & Channels,Action not showing the correct treatment DDR details[L&R],f6bb23dc282
+2023-07-20,2023,BUG-806115,BUG,Customer Profile Viewer (CPV) & Personas,Persona UI Corrections: CDH & 1:1 Ops,e2796a91efa
+2023-07-28,2023,BUG-813406,BUG,Treatments & Channels,HFIX:Issues with Treatment eligibility functionality,a0930f13ea6
+2023-08-09,2023,BUG-820323,BUG,Other,Update Testing - Issue in update flow.,ac5ff20c4fa
+2023-08-10,2023,BUG-820445,BUG,Treatments & Channels,Unable to open treatment from Action,2f5c9ef9aca
+2023-10-04,2023,US-566735,US,Contact Policies & Emergency Exclusions,Redesign the contact policy association and action delete,2746c7d60c7
+2023-10-11,2023,US-573262,US,Customer Profile Viewer (CPV) & Personas,"Data model, Underlying Infra and UI",8338a3a24a5
+2023-10-16,2023,US-573300,US,Customer Profile Viewer (CPV) & Personas,Automations for Customer Data & Base Count,69019acbf80
+2023-10-26,2023,BUG-822527,BUG,Ops Manager / Change Requests / Revisions,Error message missing with >64 chars tag name,376c9a069d9
+2023-10-31,2023,BUG-831819,BUG,Contact Policies & Emergency Exclusions,Contact policy on group level config is broken/confusing,c0056b6efc2
+2023-11-03,2023,BUG-831003,BUG,Customer Profile Viewer (CPV) & Personas,CPV MakeDecision first column takes up space and filter ena,57d33060424
+2023-11-07,2023,BUG-833374,BUG,Brand Voice & GenAI,GenAI options don't remember previous input,f4c674cb529
+2023-11-14,2023,US-559917,US,Customer Profile Viewer (CPV) & Personas,Ability to designate whether Persona is in/out specific test,6dfc97e4871
+2023-11-17,2023,BUG-829758,BUG,Ops Manager / Change Requests / Revisions,contactpolicies not applied to action incase of multiple ac,347b328220b
+2023-11-22,2023,BUG-838683,BUG,Customer Profile Viewer (CPV) & Personas,Impact analyzer settings being reset when save-as persona,5d4943ba675
+2023-11-22,2023,BUG-838319,BUG,Customer Profile Viewer (CPV) & Personas,Weird alert displayed on click of save persona,32a9b8a83bd
+2023-11-24,2023,BUG-838437,BUG,Customer Profile Viewer (CPV) & Personas,Change the column name of the IA test name in CPV,f1cdd3b93c3
+2023-11-27,2023,BUG-838125,BUG,Customer Profile Viewer (CPV) & Personas,Persona label getting cleared with the scenario mentioned,9763f4488d2
+2023-11-28,2023,BUG-838857,BUG,Customer Profile Viewer (CPV) & Personas,CPV search with customer name not working,d9d966db069
+2023-11-28,2023,BUG-838333,BUG,Customer Profile Viewer (CPV) & Personas,Save as persona disabled in open new window in CPV,c708e27ba7b
+2023-11-29,2023,BUG-838311,BUG,Customer Profile Viewer (CPV) & Personas,Invalid message displayed in ops for persona,f47161c5aae
+2023-12-13,2023,BUG-839932,BUG,"App Overview, Localization & Platform",Style & Format Hardening for Application Overview,a35914f5a02
+2023-12-28,2023,BUG-840585,BUG,Contact Policies & Emergency Exclusions,Unable to add contact policies to action,7a769a9789a
+2023-12-29,2023,BUG-844784,BUG,Customer Profile Viewer (CPV) & Personas,Persona in ops UI issues,5c5367a6190
+2024-01-04,2024,BUG-845465,BUG,Customer Profile Viewer (CPV) & Personas,Sync customer details does not reset edited dynamic date pr,9c5acf82b97
+2024-01-08,2024,BUG-846570,BUG,Ops Manager / Change Requests / Revisions,ContactPolicyJoins DDR added to RM when no change in CR,c034feaa4a4
+2024-01-11,2024,BUG-847560,BUG,Customer Profile Viewer (CPV) & Personas,Channel context does not apply placements in CPV,0f87ab70435
+2024-01-29,2024,HFIX-B187,HFIX,Ops Manager / Change Requests / Revisions,Change request fails in Plan stage in ops manager,8d378a46aa2
+2024-01-30,2024,HFIX-B244,HFIX,Ops Manager / Change Requests / Revisions,Ops Manager IndexOutOfBoundException after 8.8 Upgrade,c48070f4ec5
+2024-01-30,2024,BUG-851091,BUG,Ops Manager / Change Requests / Revisions,HFIX:Ops Manager IndexOutOfBoundException after 8.8 Upgrade,ca1cdc7bf17
+2024-02-07,2024,BUG-852607,BUG,"App Overview, Localization & Platform",CDH 8.24 Localization Issues in Dutch LP,9872273bca4
+2024-02-14,2024,BUG-854914,BUG,Ops Manager / Change Requests / Revisions,INC-B4669 || bol.com || Automated CR is failing,1b34d4ba175
+2024-02-21,2024,BUG-845094,BUG,Customer Profile Viewer (CPV) & Personas,Pega platform Error on export json for withdrawn personas,e00fe7b6d74
+2024-02-22,2024,BUG-844057,BUG,Treatments & Channels,Validation handling for Business weight in treatments,35c5b842d24
+2024-02-23,2024,BUG-838324,BUG,Customer Profile Viewer (CPV) & Personas,Label of channel context not getting auto populated in CPV,9bd5de513fb
+2024-03-12,2024,US-600440,US,Contact Policies & Emergency Exclusions,Tech debt - Adopt Contact Policy architecture in Ops Mgr,49dc944e78b
+2024-03-14,2024,BUG-860082,BUG,Treatments & Channels,Icon not shown for Call center,0e3928da350
+2024-03-21,2024,HFIX-B796,HFIX,Treatments & Channels,Email treatments are missing from some actions,51cbe76c1cc
+2024-03-28,2024,US-582566-1,US,Brand Voice & GenAI,Case Flow - 'Create Brand Voice',2707f64a643
+2024-04-17,2024,US-582567-1,US,Brand Voice & GenAI,Sample Content Voice Analyses,6a4cc1568a8
+2024-05-02,2024,US-609779-1,US,Brand Voice & GenAI,Deleting a Brand Voice & Global Directive,d8a0f546df2
+2024-05-20,2024,HFIX-B1260,HFIX,Treatments & Channels,Incorrect Treatment Type Values for Ops Email Treatments,6f656458fa5
+2024-05-21,2024,BUG-860897,BUG,Treatments & Channels,Update logic to handle empty TreatmentType field,4e37229d0e4
+2024-05-29,2024,US-613182,US,Brand Voice & GenAI,Treatment generation using brand voice,621412725fa
+2024-05-30,2024,US-610564-1,US,Customer Profile Viewer (CPV) & Personas,Improve Make Decision Experience in CPV,8fdfdf7f274
+2024-06-03,2024,TASK-1618537,TASK,Brand Voice & GenAI,Ui suggestions for brand voice tile,48a7d3b9129
+2024-06-26,2024,BUG-872182,BUG,Treatments & Channels,PlatformErrorWhenTriedToUpdatePlacementsAndClickon3Dots,2140e02ef56
+2024-06-26,2024,US-614750-1,US,Brand Voice & GenAI,MISC Brand Voice UI/UX Updates,29ca2c275e3
+2024-07-09,2024,BUG-876756,BUG,Brand Voice & GenAI,Update global directives button not working for a businessU,28c139910af
+2024-07-25,2024,BUG-874687,BUG,Treatments & Channels,Prop filters name is not generated properly on UI and RM br,319740f04dc
+2024-07-25,2024,US-626087,US,Contact Policies & Emergency Exclusions,Multi-Level Contact Policies: Limit Tracking Context,f17ddb20d99
+2024-08-08,2024,US-608928,US,Contact Policies & Emergency Exclusions,Manage Emergency Exclusions in Production,6ea1e503fe7
+2024-08-16,2024,BUG-879897,BUG,"App Overview, Localization & Platform",App overview not showing the pega cloud value correctly,9398dde26bd
+2024-08-19,2024,BUG-882444,BUG,Customer Profile Viewer (CPV) & Personas,Label should be displayed for any picker CPV,9d7e4045cb0
+2024-08-22,2024,BUG-880252,BUG,Contact Policies & Emergency Exclusions,Contact policy UI does not show the Tracking data of CPS,a88586f652f
+2024-08-22,2024,BUG-883660,BUG,Brand Voice & GenAI,Unable to read content from docx files in brand voice,041289554e8
+2024-08-23,2024,BUG-882962,BUG,Brand Voice & GenAI,remove the duplicate entries of createdBy in BV approvalS,d1efbc6ceaa
+2024-08-28,2024,BUG-884169,BUG,Customer Profile Viewer (CPV) & Personas,CPV changes - Updates Customer Journeys,c7123c77093
+2024-08-29,2024,BUG-884087,BUG,Brand Voice & GenAI,Withdraw the brand voice overridden rules,397bde5a34c
+2024-09-04,2024,BUG-883849,BUG,Brand Voice & GenAI,Adopt platform changes for Connect Gen AI rules,cd33c0882be
+2024-09-04,2024,BUG-885181,BUG,Brand Voice & GenAI,Change ruleset version in brand voice and archive action cl,25aaa1e9e9f
+2024-09-09,2024,BUG-886797,BUG,"App Overview, Localization & Platform",Not able to merge anything to PegaMKT-Engine in SDE-CDH-24.,38ebbb413bc
+2024-09-16,2024,BUG-888040,BUG,Contact Policies & Emergency Exclusions,Tracking context is not displayed after adding contact poli,f8358e4c0d4
+2024-09-18,2024,HFIX-B2462,HFIX,Brand Voice & GenAI,GenAI connection fails,f62cb3f3d9e
+2024-09-18,2024,BUG-887445,BUG,Contact Policies & Emergency Exclusions,Emergency exclusion not working for treatment with label,1180d8c3278
+2024-09-19,2024,BUG-885423,BUG,Other,[CDH] Update CDH integration tests for automation versionin,5d0293b5cc8
+2024-09-24,2024,BUG-888987,BUG,Brand Voice & GenAI,Brand voice prompt width breaking,07e3a66c8f0
+2024-09-30,2024,BUG-853115,BUG,"App Overview, Localization & Platform",CDH 8.23 localization issues,ac2edf7eaf2
+2024-10-01,2024,BUG-888455,BUG,Brand Voice & GenAI,Generate treatment using GenAI fails,2f16c9dcc07
+2024-10-02,2024,BUG-889019,BUG,Customer Profile Viewer (CPV) & Personas,Persona not setting RequiredExperiment value to Any for,352cf829d47
+2024-10-15,2024,BUG-891058,BUG,Ops Manager / Change Requests / Revisions,Actions from Insights are not moving to Actioned Insights t,115d638681f
+2024-10-21,2024,BUG-893354,BUG,Test Automation (Selenium / Playwright / PegaUnit),pega unit fAiling in comms unit test for channel settings,f75653ab082
+2024-11-05,2024,BUG-893217,BUG,Email Authoring (BeeFree) & Templates,DB template not opening after bulk import,1b8af460848
+2024-11-05,2024,BUG-893672,BUG,Ops Manager / Change Requests / Revisions,Remove 'Archive Action' option from Other type CR menu,9cd59484acf
+2024-11-11,2024,BUG-896118,BUG,"App Overview, Localization & Platform",24.2 HFIX Automated insights failing,968baf1921d
+2024-11-29,2024,US-651452,US,Customer Profile Viewer (CPV) & Personas,Refactor Progress bar in CPV tabs,9a32adc8706
+2024-12-12,2024,US-650070,US,Email Authoring (BeeFree) & Templates,Build email from selected templates,cda75d9183a
+2024-12-24,2024,BUG-903361,BUG,Brand Voice & GenAI,Brand voice branch ruleset mismatch and Automated insights,cf58b129de1
+2024-12-27,2024,BUG-903361,BUG,Brand Voice & GenAI,Brand voice branch ruleset mismatch,2a6a5d3cb00
+2025-01-02,2025,BUG-896131,BUG,Brand Voice & GenAI,CDH Assistant Pega unit failures,649d5691909
+2025-01-03,2025,BUG-904369,BUG,Test Automation (Selenium / Playwright / PegaUnit),5 Pega Unit Failures blocking CDH code merge,1abb05f1007
+2025-01-06,2025,BUG-904577,BUG,Test Automation (Selenium / Playwright / PegaUnit),5 Pega Unit Failures blocking CDH code merge,b8859ff2ff0
+2025-01-20,2025,US-657618-1,US,Treatments & Channels,Preview & Test Email Treatments - II,5514e87f5d9
+2025-01-23,2025,US-650074-1,US,Email Authoring (BeeFree) & Templates,Browse through saved templates (CDH & 1:1 Ops),380e7c1fcf7
+2025-02-04,2025,HFIX-C361,HFIX,Treatments & Channels,Issue Opening Treatment from Action After Upgrade to 24.2,875b29ec83d
+2025-02-07,2025,BUG-910669,BUG,Brand Voice & GenAI,ExtractTextFromFile updated to remove non existing classes,93744e863bb
+2025-02-11,2025,BUG-910418,BUG,Customer Profile Viewer (CPV) & Personas,IH and DH not loading,99fe2cce724
+2025-02-19,2025,US-662392-1,US,Email Authoring (BeeFree) & Templates,Template Selection as a Template Editor,3a2a23743b5
+2025-02-24,2025,BUG-912678,BUG,Ops Manager / Change Requests / Revisions,Test email tab not showing the entered email address,3e21a919900
+2025-02-26,2025,BUG-912603,BUG,Treatments & Channels,Submit Button Clickable Before ID Generation,e5eda1cbc42
+2025-02-27,2025,BUG-910657,BUG,Brand Voice & GenAI,Move TS_CDHASSISTANT suite under TS_Raptors_MultiApp test s,92059fe7875
+2025-02-28,2025,BUG-893445,BUG,Brand Voice & GenAI,Brand voice long name is getting overlapped with 3 dots,aa6b1e68b22
+2025-02-28,2025,BUG-894152,BUG,Brand Voice & GenAI,Archived Brand Voice not visible after CR deployment,82e988bb303
+2025-03-25,2025,HFIX-C818,HFIX,Customer Profile Viewer (CPV) & Personas,Persona dynamic value - IH Summary,f6b53f7dfc0
+2025-04-02,2025,BUG-894110,BUG,Brand Voice & GenAI,"Set Up Global Directives Button Visible, Functional Post Bu",1a597c65c2b
+2025-04-08,2025,,Untracked,Test Automation (Selenium / Playwright / PegaUnit),Copied seleinium changes to new branch,fb46b229d15
+2025-04-08,2025,US-659520-3,US,Email Authoring (BeeFree) & Templates,Plan Stage Users select & plan an Email Template,b9b5286e44e
+2025-04-17,2025,US-674682,US,Email Authoring (BeeFree) & Templates,BeeFree Pega Component to Include Section Rules,1c951d7870c
+2025-04-25,2025,HFIX-C1292,HFIX,Contact Policies & Emergency Exclusions,Unable to create Contact Policies with Placement type,f78b0e203d6
+2025-05-02,2025,US-674286,US,Ops Manager / Change Requests / Revisions,Adopt Ability to Disable DDR Import/Export,4cde79b6843
+2025-05-05,2025,HFIX-C386,HFIX,"App Overview, Localization & Platform",Automated insights not working,a384734eafb
+2025-05-05,2025,BUG-925286,BUG,Contact Policies & Emergency Exclusions,Unable to create Contact Policies with Placement type,eb8aef330b0
+2025-05-08,2025,,Untracked,Test Automation (Selenium / Playwright / PegaUnit),anypicker seleinium changes for channel tab,34959cac4d4
+2025-05-09,2025,HFIX-C1373,HFIX,"App Overview, Localization & Platform",pxPriority returns 0 from CDH container response,01a5466ec3c
+2025-05-09,2025,BUG-924155,BUG,Treatments & Channels,New Treatment UI channel selector doesn't have direction,608cf9a8cfe
+2025-05-09,2025,BUG-919780,BUG,Treatments & Channels,Withdraw Treatment Dependency Message,ac389cce36f
+2025-05-12,2025,,Untracked,Treatments & Channels,Made chnages for all treatments to support new UI,53409f53e81
+2025-05-12,2025,BUG-926272,BUG,Treatments & Channels,Disable Treatments join for treatment import by default,ba1573b0b71
+2025-05-15,2025,BUG-924249,BUG,Treatments & Channels,Treatment Identifier Name Overflows UI Display in Email Tre,b03ad0a1212
+2025-05-15,2025,BUG-925361,BUG,Email Authoring (BeeFree) & Templates,Merge tags not shown after selection in subjectID field in,de4e779259a
+2025-05-20,2025,BUG-926687,BUG,Ops Manager / Change Requests / Revisions,RT: Go button is enabled in to do list post reassociation1,9f315b3bbbf
+2025-05-22,2025,BUG-927868,BUG,Treatments & Channels,channel tab is not working in legacy mode,f3b644f0275
+2025-05-23,2025,BUG-888349,BUG,Contact Policies & Emergency Exclusions,RT- On addition CP in engagement policy is not showing as e,1dc04080da7
+2025-06-05,2025,BUG-926976,BUG,Contact Policies & Emergency Exclusions,RT: Entry in CPJoins is missing post-update CR withdrawal,6c4511da2bc
+2025-06-11,2025,BUG-928583,BUG,Treatments & Channels,For Inflight CRs in Plan issue treatment eligibility and we,3656b4c2d93
+2025-06-11,2025,BUG-931220,BUG,Treatments & Channels,Placements Field Missing in 'Save As' Modal for Mobile CC-,2a442cc09d2
+2025-06-24,2025,BUG-910951,BUG,Ops Manager / Change Requests / Revisions,ContactPolicies not generated as expctd on Action Context C,32c9bd38b55
+2025-06-25,2025,BUG-933710,BUG,Ops Manager / Change Requests / Revisions,"Revision button disabled, even when all CR is resolved comp",160064886af
+2025-06-26,2025,BUG-925483,BUG,"App Overview, Localization & Platform",HFIX:Automated insights not working,b2b4d4fc77e
+2025-06-26,2025,BUG-932056,BUG,Ops Manager / Change Requests / Revisions,Dependency check is not happening for RTP/RTB/Withdraw acti,fb3abe64622
+2025-07-01,2025,BUG-932507,BUG,Brand Voice & GenAI,CR Status for Archival of Brand Voice Remains 'New',7b75b3fe27f
+2025-07-02,2025,BUG-928139,BUG,Treatments & Channels,Email Treatment becomes blank After Removing Treatments in,f01fc9ba678
+2025-07-07,2025,BUG-935888,BUG,Treatments & Channels,Dynamic content treatment actions are not streamed via Outb,262f70286b0
+2025-07-10,2025,HFIX-C2166,HFIX,Treatments & Channels,Importing treatment fails to retain language value in porta,b13996cb05b
+2025-07-11,2025,BUG-939894,BUG,Other,HFIX:Tha language value is not updating when import the web,24f64e5d70d
+2025-07-14,2025,BUG-938430,BUG,Treatments & Channels,Old flow- Discrepancy when adding new channels,4f72b302890
+2025-07-25,2025,BUG-936646,BUG,Brand Voice & GenAI,GenAI features not working with Bedrock model,d45ac5f1180
+2025-07-30,2025,BUG-944020,BUG,Treatments & Channels,Preview/Open In Tab is not working for IE treatments Beefre,3a8f8c5dd80
+2025-08-04,2025,HFIX-C2511,HFIX,Ops Manager / Change Requests / Revisions,Bulk archival failing,db49e3b0c00
+2025-08-14,2025,BUG-946607,BUG,Treatments & Channels,Prop filter is not getting updated when we change Channel e,7785a197f71
+2025-08-20,2025,HFIX-C2691,HFIX,Treatments & Channels,Treatment joins lost after upgrade,e917b72a093
+2025-08-22,2025,BUG-946076,BUG,"App Overview, Localization & Platform",Register callbacks in final section to avoid manual rebasel,5986040459e
+2025-09-01,2025,BUG-948260,BUG,Treatments & Channels,HFIX:Treatment joins lost after upgrade,bfd9366f229
+2025-09-08,2025,BUG-938907,BUG,"App Overview, Localization & Platform",Content Landing page issue in Operations manager portal,172e7c54250
+2025-09-10,2025,BUG-888769,BUG,Contact Policies & Emergency Exclusions,Emergency exclusion drop down is confusing for action label,62788148547
+2025-09-11,2025,BUG-945959,BUG,Customer Profile Viewer (CPV) & Personas,Prioritization View in NBA tab of CPV as default view,dab58236761
+2025-09-15,2025,BUG-948200,BUG,Customer Profile Viewer (CPV) & Personas,Inline Styles Dropped in CPV Explainability Preview in 24.2,8959c7d72d0
+2025-09-22,2025,HFIX-C3035,HFIX,Treatments & Channels,Treatment is getting removed from the actions,bdb96ac232d
+2025-09-24,2025,BUG-953562,BUG,Email Authoring (BeeFree) & Templates,Test Case Fails Due to Changing Default Email Account Crede,b60ca52d2f4
+2025-09-24,2025,HFIX-C3035,HFIX,Treatments & Channels,Validate activity Treatment is getting removed from the a,9dfec6ef77c
+2025-09-25,2025,BUG-953632,BUG,Email Authoring (BeeFree) & Templates,Test Case Fails Due to Changing Default Email Account Crede,6684fb46727
+2025-10-08,2025,US-704721-1,US,Customer Profile Viewer (CPV) & Personas,Extend Treatment Sets data model to Other Ops CRs,df949ec508a
+2025-10-16,2025,US-650088,US,Brand Voice & GenAI,Actions contain a Marketing Message - GenAI enabled,59f734cb39c
+2025-11-04,2025,BUG-872197,BUG,Customer Profile Viewer (CPV) & Personas,CPV: Single action picker truncated,2b56cae1b8e
+2025-11-05,2025,BUG-930399,BUG,Treatments & Channels,Release testing : SMS treatment duplicate info UX bug,d87678b3c3e
+2025-11-07,2025,,Untracked,Test Automation (Selenium / Playwright / PegaUnit),changed the flow name,7eb6f4ee4b8
+2025-11-10,2025,BUG-953339,BUG,Treatments & Channels,Download Treatment is not downloading PDF when no name is s,b605d198b1f
+2025-11-10,2025,US-710364-1,US,Treatments & Channels,Refine Treatment case from Update Action Change Request,5b48f70e204
+2025-11-12,2025,BUG-961363,BUG,Test Automation (Selenium / Playwright / PegaUnit),Remove redundant Pega Unit tests for blank activities with,7d11c348cd2
+2025-12-01,2025,BUG-964045,BUG,Email Authoring (BeeFree) & Templates,Beefree editor not inline on always on actions,da4d6c94e3b
+2025-12-10,2025,BUG-957553,BUG,Email Authoring (BeeFree) & Templates,Mismatch between subject line and its preview in beefree ed,c5b8486ec66
+2025-12-22,2025,HFIX-C4616,HFIX,Contact Policies & Emergency Exclusions,Incorrect cpv explanation of eligibility engagement policy,5f3ce9e7c86
+2025-12-24,2025,BUG-966433,BUG,Treatments & Channels,Internal email treatments not getting removed if details ed,d2b75a672de
+2025-12-24,2025,BUG-968254,BUG,Customer Profile Viewer (CPV) & Personas,HFIX:Incorrect cpv explanation of eligibility engagement p,36d9b20f697
+2025-12-24,2025,BUG-968253,BUG,Customer Profile Viewer (CPV) & Personas,HFIX:Incorrect cpv explanation of eligibility engagement po,6a08e16ca1a
+2025-12-29,2025,BUG-965477,BUG,Treatments & Channels,"Inconsistent font on ""details"" for Other treatments on alwa",55f91b915a9
+2026-01-08,2026,BUG-964606,BUG,Email Authoring (BeeFree) & Templates,Screen Flicker Issue When Adding Subject and Preheader Fiel,a5f6d7c7ecb
+2026-01-08,2026,BUG-964606,BUG,Brand Voice & GenAI,Remove references of using internal Generative AI Cpv summa,5f8a3bc8fa7
+2026-01-21,2026,BUG-972362,BUG,Contact Policies & Emergency Exclusions,Invalid Contact Policies Are Visible and Associable via Sea,9efbfcb79f8
+2026-01-21,2026,BUG-972153,BUG,Contact Policies & Emergency Exclusions,Invalid Contact Policies Are Visible and Associable via Sea,311d44cd222
+2026-01-23,2026,BUG-972894,BUG,Email Authoring (BeeFree) & Templates,Default account change should ask for account details,aa94cc5eca8
+2026-01-28,2026,HFIX-D28,HFIX,"App Overview, Localization & Platform",Enable Holdout Experiments in Customer Decision Hub,60753a6a562
+2026-02-02,2026,BUG-937728,BUG,Treatments & Channels,Incorrect Treatment Shown in Preview When Internal & Extern,cb0428ada56
+2026-02-02,2026,BUG-966568,BUG,Email Authoring (BeeFree) & Templates,No validation for internal emails,684962dbb7e
+2026-02-11,2026,BUG-963140,BUG,Ops Manager / Change Requests / Revisions,Issue with withdraw of an update CR,e9ab3039d83
+2026-02-11,2026,BUG-934508,BUG,Email Authoring (BeeFree) & Templates,"Email name is accepting numbers, which causes the ID empty",f5a19393f5a
+2026-02-11,2026,HFIX-D324,HFIX,Ops Manager / Change Requests / Revisions,Remove same name action in lower version with create action,df9ae879778
+2026-02-11,2026,HFIX-C4616,HFIX,Customer Profile Viewer (CPV) & Personas,CPV showing incorrect results,eae7acc4f9b
+2026-02-18,2026,BUG-939350,BUG,Ops Manager / Change Requests / Revisions,Make action available process failed,645f47bda66
+2026-03-23,2026,BUG-946647,BUG,Contact Policies & Emergency Exclusions,RC: Suppression period and Target context are missing on CP,0967228c421
+2026-03-26,2026,BUG-977441,BUG,Brand Voice & GenAI,No error message is shown when models are not present in th,907cc24e7fa
+2026-04-07,2026,,Untracked,Email Authoring (BeeFree) & Templates,Beefree auth changes for staging1,bab4b09d297
+2026-04-07,2026,,Untracked,Email Authoring (BeeFree) & Templates,Beefree auth changes for staging,779fa77e6a8
+2026-04-17,2026,BUG-986952,BUG,Treatments & Channels,Unwanted exceptions in logs from ValidateTreatments activit,67ca46dc6ad
+2026-04-24,2026,BUG-989102,BUG,Customer Profile Viewer (CPV) & Personas,HFIX:Inbound call resulting in error entry in logs with Peg,b2ba6f43272
+2026-04-29,2026,BUG-991772,BUG,Email Authoring (BeeFree) & Templates,"Bee free treatment sets issue/group to ""ALL"" instead of ""Al",8ffea1cabf3
+2026-05-08,2026,BUG-985560,BUG,Customer Profile Viewer (CPV) & Personas,Update CaptureInteractionHistory strategy empty check,045b17c15e0
+2026-05-15,2026,BUG-995281,BUG,Customer Profile Viewer (CPV) & Personas,Interactions not loading in CPV for Persona and External ID,9d2b42666fe
+2026-06-08,2026,BUG-997838,BUG,Email Authoring (BeeFree) & Templates,RV Generation Fails for Update CR with Bee free Email Treat,1d85e5493ca
+2026-06-11,2026,BUG-1001192,BUG,Email Authoring (BeeFree) & Templates,Content landing Page Template Issues,e089d2a3d3a
+2026-06-15,2026,,Untracked,Test Automation (Selenium / Playwright / PegaUnit),Playwright setup step fails opening access groups in Infinity St,54bdd70f4fb
+2026-06-16,2026,,Untracked,Test Automation (Selenium / Playwright / PegaUnit),Check for records tab first if not present click on app tab,8d1e726555a
+2026-06-16,2026,,Untracked,Test Automation (Selenium / Playwright / PegaUnit),Even the records click was fixed,482627f3046
+2026-06-18,2026,HFIX-D1493,HFIX,Email Authoring (BeeFree) & Templates,Bee free treatment sets issue/group to ALL instead of All,d2b7cb5d9be
+2026-07-02,2026,BUG-931868,BUG,"App Overview, Localization & Platform",Align with Infinity studio and remove App Studio form the C,334a4de7de4
+2026-07-08,2026,BUG-995281,BUG,Customer Profile Viewer (CPV) & Personas,External ID and Personas not working in IH and DH in  maste,23c288923a1
+2026-07-08,2026,BUG-1007920,BUG,Customer Profile Viewer (CPV) & Personas,External ID and Personas not working in IH and DH in  mast,31993c36304
+2026-07-16,2026,HFIX-D2352,HFIX,Email Authoring (BeeFree) & Templates,Enhanced Email Authoring tool do not show all fields & work CTA,4f229cba332
+2026-07-24,2026,HFIX-D2352,HFIX,Email Authoring (BeeFree) & Templates,Enhanced Email Authoring tool do not show all fields & words,7893e7e1783
+2026-07-24,2026,BUG-1008949,BUG,"App Overview, Localization & Platform",align with Infinity Studio and remove App Studio,7b2953d4d11
+2026-07-31,2026,,Untracked,Email Authoring (BeeFree) & Templates,Add Beefree plain text content support,f2a5b2ef99d
+2026-08-03,2026,HFIX-D2352,HFIX,Email Authoring (BeeFree) & Templates,Update Beefree email editor styles,9d09a556a92
+2026-08-06,2026,BUG-1003589,BUG,Email Authoring (BeeFree) & Templates,HFIX:CTA does not work in Enhanced Email Authoring tool,496f51b79a3
+2026-08-09,2026,BUG-1013411,BUG,"App Overview, Localization & Platform",The App Overviewis displaying incorrect Performance & impr,7dac0732983
+2026-08-11,2026,BUG-1013412,BUG,"App Overview, Localization & Platform",The App Overviewis displaying incorrect Performance & impr,aec71f63c4a
+2026-08-14,2026,,Untracked,Other,Fix convertJSONToHTML test failures by stubbing getResponseCode(),f19a00edcad
+2026-08-14,2026,,Untracked,Brand Voice & GenAI,Update GenAI dynamic RTE rule text,6bfdafd8299
+2026-09-01,2026,BUG-1020370,BUG,Brand Voice & GenAI,The SDE AI Assistant is currently not working because the,dd8778b30dc
+2026-09-01,2026,ENHANCEMENT-2114,ENHANCEMENT,Email Authoring (BeeFree) & Templates,Plain Text Email Generation / Preview,4bae647af7d
+2026-09-03,2026,ENH-2114,ENHANCEMENT,Email Authoring (BeeFree) & Templates,Clean up BeeFree connections on write failures,092c4567d06
+2026-09-03,2026,ENH-2114,ENHANCEMENT,Email Authoring (BeeFree) & Templates,Handle BeeFree plain text error responses,f3578483d10
+2026-09-03,2026,ENH-2114,ENHANCEMENT,Email Authoring (BeeFree) & Templates,Handle missing BeeFree error stream,ec261fbf4e4
+2026-09-03,2026,ENH-2114,ENHANCEMENT,Email Authoring (BeeFree) & Templates,Add BeeFree content conversion endpoints,4394682cd79
+2026-09-03,2026,ENH-2114,ENHANCEMENT,Email Authoring (BeeFree) & Templates,Mark test-visible connection helper,7bad2e15e05
+2026-09-03,2026,,Untracked,Email Authoring (BeeFree) & Templates,Add plain text email preview specification,1de03e75334
+2026-09-03,2026,,Untracked,Email Authoring (BeeFree) & Templates,Add plain text treatment preview automation,a189f149441
+2026-09-03,2026,,Untracked,Email Authoring (BeeFree) & Templates,Add plain text email treatment preview rules,ec93e9ebce3
+2026-09-07,2026,ENH-2114,ENHANCEMENT,Email Authoring (BeeFree) & Templates,Add BeeFree email content processor,010691202f3
+2026-09-09,2026,ENH-2114,ENHANCEMENT,Email Authoring (BeeFree) & Templates,Configure BeeFree read timeout,7a05da54567
+2026-09-25,2026,T-47965,TASK,Test Automation (Selenium / Playwright / PegaUnit),Update test tags Raptors dai-jenkins 25.1,ad430e96ad4
+2026-09-25,2026,T-47965,TASK,Test Automation (Selenium / Playwright / PegaUnit),Update test tags Raptors dai-jenkins,7c995cd4e3a
+2026-09-25,2026,T-47965,TASK,Test Automation (Selenium / Playwright / PegaUnit),Revert @Raptors tag addition in 16CreateAndEditSMSTreatment.feature,93883f4c25d
+2026-09-25,2026,T-47965,TASK,Test Automation (Selenium / Playwright / PegaUnit),Update test tags Raptors dai-jenkins 26.1,8a38abd9f08
+2026-09-25,2026,,Untracked,Email Authoring (BeeFree) & Templates,Add synced fragment support to Beefree authoring,1887832e403
+2026-09-25,2026,ENHANCEMENT-15218,ENHANCEMENT,Brand Voice & GenAI,Add nightly Orchestrator Agent trigger,4bebbfeb1ac
